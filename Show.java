@@ -58,6 +58,7 @@ public class Show {
 	}
         
         public void MostraMenu(List<Show> shows,int opcao) {
+		// TODO Auto-generated method stub
 		for (int i=0;i<shows.size();i++) {
 			System.out.println(i+1 + " - " + shows.get(i).getNomeDaBanda() + " - " +shows.get(i).getTurne());
 		}
@@ -66,11 +67,11 @@ public class Show {
                     case 1:
                         System.out.println("show 1: " + shows.get(0).getNomeDaBanda() + " - " + " Turnê: " + shows.get(0).getTurne() + " - " + "Datas: " + shows.get(0).getData() + " - " + "Local: " + shows.get(0).getLocal());
                     case 2:
-                        System.out.println("show 1: " + shows.get(1).getNomeDaBanda() + " - " + " Turnê: " + shows.get(1).getTurne() + " - " + "Datas: " + shows.get(1).getData() + " - " + "Local: " + shows.get(1).getLocal());
+                        System.out.println("show 2: " + shows.get(1).getNomeDaBanda() + " - " + " Turnê: " + shows.get(1).getTurne() + " - " + "Datas: " + shows.get(1).getData() + " - " + "Local: " + shows.get(1).getLocal());
                     case 3:
-                        System.out.println("show 1: " + shows.get(2).getNomeDaBanda() + " - " + " Turnê: " + shows.get(2).getTurne() + " - " + "Data: " + shows.get(2).getData() + " - " + "Local: " + shows.get(2).getLocal());
+                        System.out.println("show 3: " + shows.get(2).getNomeDaBanda() + " - " + " Turnê: " + shows.get(2).getTurne() + " - " + "Data: " + shows.get(2).getData() + " - " + "Local: " + shows.get(2).getLocal());
                     case 4:
-                        System.out.println("show 1: " + shows.get(0).getNomeDaBanda() + " - " + " Turnê: " + shows.get(3).getTurne() + " - " + "Data: " + shows.get(3).getData() + " - " + "Local: " + shows.get(3).getLocal());
+                        System.out.println("show 4: " + shows.get(3).getNomeDaBanda() + " - " + " Turnê: " + shows.get(3).getTurne() + " - " + "Data: " + shows.get(3).getData() + " - " + "Local: " + shows.get(3).getLocal());
                 }
         }
 	
